@@ -16,3 +16,7 @@ Depending on the path, it filters or modifies the paragraphs before rendering.
 **Rendering Paragraphs:**
 
 The entityTypeManager's viewBuilder is used to render the filtered paragraphs in the desired view mode.
+
+
+drush en custom_paragraph_display
+drush cr
