@@ -1,0 +1,6 @@
+services:
+  custom_paragraph_display.node_paragraph_subscriber:
+    class: Drupal\custom_paragraph_display\EventSubscriber\NodeParagraphSubscriber
+    arguments: ['@path.matcher', '@entity_type.manager']
+    tags:
+      - { name: event_subscriber }

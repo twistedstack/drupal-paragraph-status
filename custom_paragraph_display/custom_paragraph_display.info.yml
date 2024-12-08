@@ -1,0 +1,8 @@
+name: 'Custom Paragraph Display'
+type: module
+description: 'Displays a specific paragraph field based on the node path.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:paragraphs
+  - drupal:node
